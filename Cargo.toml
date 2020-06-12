@@ -1,0 +1,18 @@
+[package]
+name = "giga"
+description = "Library for read and write Giga sample files"
+version = "0.0.1"
+authors = ["Shamil <shamil@shamil.ru>"]
+repository = "https://github.com/ogzi-music/giga/"
+license = "MIT"
+readme = "README.md"
+edition = "2018"
+keywords = []
+exclude = ["scripts/*"]
+
+[lib]
+name = "giga"
+path = "src/lib.rs"
+
+[dependencies]
+error-chain = "0.12"
